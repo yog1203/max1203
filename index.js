@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 
-const db = require('./queries')
+const db = require('queries')
 // const port = 3000
 // IMPORTANT: use the Azure port
 
